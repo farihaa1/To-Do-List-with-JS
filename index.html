@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO DO LIST APP</title>
     <link rel="stylesheet" href="style.css">
+    <!-- fontAwesome cdn -->
+    <script src="https://kit.fontawesome.com/bb01d016fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -12,8 +14,8 @@
             <div class="details">
                 <h1>To Do App</h1>
                 <p>Keep it up!</p>
-                <div class="progressbar">
-                    <div id="progressBar">
+                <div class="progressBar">
+                    <div id="progress">
 
                     </div>
                 </div>
@@ -26,11 +28,11 @@
         </div>
 
         <form action="">
-            <input type="text" placeholder="Write your task">
-            <button type="submit">+</button>
+            <input id="taskInput" type="text" placeholder="Write your task">
+            <button id="submit" type="submit">+</button>
         </form>
 
-        <ul class="task-list">
+        <ul id="task-list">
 
         </ul>
     </div>
@@ -39,3 +41,5 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+
